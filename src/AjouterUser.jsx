@@ -46,7 +46,7 @@ function AjouterUSer() {
             password: ''
           });
 
-          // navigate('/services');
+           navigate('/services');
 
         } catch (error) {
           console.error('Erreur lors de l\'envoi des données :', error.message);

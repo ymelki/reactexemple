@@ -40,7 +40,8 @@ function Produits() {
   
     if (loading) return <div>Chargement en cours...</div>;
   
-    if (error) return <div>Erreur: {error.message}</div>;
+    if (error)             navigate('/Accueil');
+    ;
    
 
 
@@ -55,7 +56,7 @@ function Produits() {
         <ul>
           {data.map((item) => (
             <li key={item.id}>
-              {item.nom}  
+              {item.titre}  
             </li>
           ))}
         </ul>

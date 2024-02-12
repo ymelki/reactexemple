@@ -34,6 +34,10 @@ function Header() {
         <MenuItem>Connexion</MenuItem>
         </Link>
 
+        <Link to={`/Deconnexion`}>
+        <MenuItem>Deconnexion</MenuItem>
+        </Link>
+
 
       </Menu>
       </div>

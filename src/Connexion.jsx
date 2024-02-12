@@ -48,6 +48,8 @@ function Connexion() {
             console.log(jsonData.token);
             localStorage.setItem('token', jsonData.token)
             console.log(jsonData.token);
+            navigate('/Accueil');
+
 
         //   await console.log( localStorage.getItem('token'));
           // navigate('/services');
@@ -59,7 +61,7 @@ function Connexion() {
 
     return ( 
         <div>
-        <h1>Ajouter un user</h1>
+        <h1>Authentification</h1>
         <Form onSubmit={handleSubmit}>
             <FormField>
             <label>email</label>
