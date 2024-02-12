@@ -1,8 +1,7 @@
 import { Button, Form, FormField } from "semantic-ui-react";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
-import { accountService } from "./account.service";
-
+ 
 
 
 function Connexion() { 
