@@ -10,6 +10,7 @@ import AjouterUnService from './AjouterUnService';
 import AjouterUSer from './AjouterUser';
 import Connexion from './Connexion';
 import Produits from './Produits';
+import Deconnexion from './Deconnexion';
 
 
  /**
@@ -40,6 +41,7 @@ function App() {
 
       <Route path="/Ajouteruser" element={<AjouterUSer />} />
       <Route path="/Connexion" element={<Connexion />} />
+      <Route path="/Deconnexion" element={<Deconnexion />} />
 
       <Route path="*" element={<NotFound />} />
 
