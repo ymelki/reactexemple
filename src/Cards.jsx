@@ -1,17 +1,13 @@
 import { Card, CardContent, CardDescription, CardHeader, CardMeta } from "semantic-ui-react";
 
  
-function Cards() { 
+function Cards({title}) { 
     return ( 
         <div>
                 <Card>
                     <CardContent>
-                        <CardHeader>Matthew Harris</CardHeader>
-                        <CardMeta>Co-Worker</CardMeta>
-                        <CardDescription>
-                        Matthew is a pianist living in Nashville.
-                        </CardDescription>
-                    </CardContent>
+                        <CardHeader>{title}</CardHeader>
+                     </CardContent>
                 </Card>
         </div>
       );

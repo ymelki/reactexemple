@@ -37,15 +37,21 @@ function Service_complet() {
     if (error) return <div>Erreur: {error.message}</div>;
    console.log(data);
 
-    const CardExampleGroupProps = () => <CardGroup items={data} />
-    return ( 
+      return ( 
         <div>
              Liste des services 
-             <div>
-             <Cards />
+             <CardGroup>
+
+             
+                {data.map((item)   => (
+                    <Cards key={item.id} title={item.nom} />
+
+                ))   }
+
+                
    
  
-            </div> 
+             </CardGroup>
         </div>
       );
     }
