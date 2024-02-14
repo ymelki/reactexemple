@@ -12,6 +12,7 @@ import Connexion from './Connexion';
 import Produits from './Produits';
 import Deconnexion from './Deconnexion';
 import Service_complet from './Service_complet';
+import Unservice from './Unsercice';
 
 
  /**
@@ -44,6 +45,7 @@ function App() {
       <Route path="/Ajouteruser" element={<AjouterUSer />} />
       <Route path="/Connexion" element={<Connexion />} />
       <Route path="/Deconnexion" element={<Deconnexion />} />
+      <Route path="/unservice/:slug" element={<Unservice />} />
 
       <Route path="*" element={<NotFound />} />
 

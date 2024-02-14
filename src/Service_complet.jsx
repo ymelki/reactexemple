@@ -44,7 +44,7 @@ function Service_complet() {
 
              
                 {data.map((item)   => (
-                    <Cards key={item.id} title={item.nom} />
+                    <Cards key={item.id} title={item.nom} unid={item.nom} />
 
                 ))   }
 
