@@ -29,6 +29,10 @@ function Header() {
         <MenuItem>Liste des produits (protégé)</MenuItem>
         </Link>
 
+        <Link to={`/Service_complet`}>
+        <MenuItem>Liste des services (cards)</MenuItem>
+        </Link>
+
 
         <Link to={`/Connexion`}>
         <MenuItem>Connexion</MenuItem>

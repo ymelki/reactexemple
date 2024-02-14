@@ -11,6 +11,7 @@ import AjouterUSer from './AjouterUser';
 import Connexion from './Connexion';
 import Produits from './Produits';
 import Deconnexion from './Deconnexion';
+import Service_complet from './Service_complet';
 
 
  /**
@@ -38,6 +39,7 @@ function App() {
       <Route path="/services" element={<Services />} />
       <Route path="/ajouterservices" element={<AjouterService />} />
       <Route path="/Produit_protege" element={<Produits />} />
+      <Route path="/Service_complet" element={<Service_complet />} />
 
       <Route path="/Ajouteruser" element={<AjouterUSer />} />
       <Route path="/Connexion" element={<Connexion />} />
