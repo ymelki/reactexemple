@@ -39,14 +39,18 @@ function Service_complet() {
 
       return ( 
         <div>
-             Liste des services 
+             <h1>Liste des services </h1>
              <CardGroup>
 
              
-                {data.map((item)   => (
-                    <Cards key={item.id} title={item.nom} id={item.id} />
-
-                ))   }
+                {
+                data.map((item)   => (
+                    <Cards 
+                    key={item.id} 
+                    title={item.nom}
+                    id={item.id} />
+                ))   
+                }
 
                 
    

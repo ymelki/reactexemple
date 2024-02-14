@@ -7,7 +7,7 @@ function Cards({title, id}) {
      return (  
                 <Card>
                     <CardContent>
-                    <Link to={`/service/${id}`} className="card-link">
+                    <Link to={`/service/${id}`}>
                         <CardHeader>{title}</CardHeader>
                     </Link> 
                     </CardContent>

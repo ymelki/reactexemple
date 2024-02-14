@@ -45,7 +45,7 @@ function App() {
       <Route path="/Ajouteruser" element={<AjouterUSer />} />
       <Route path="/Connexion" element={<Connexion />} />
       <Route path="/Deconnexion" element={<Deconnexion />} />
-      <Route path="/unservice/:slug" element={<Unservice />} />
+      <Route path="/service/:id" element={<Unservice />} />
 
       <Route path="*" element={<NotFound />} />
 
